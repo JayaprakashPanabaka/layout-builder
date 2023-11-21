@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.body-container {
+  display: flex;
+  grid-template-columns: 1fr 2fr 1fr;
+  font-family: 'Roboto';
+  margin: 0.5rem 0;
+}
+
+.left-nav,
+.right-nav {
+  background-color: #e2e8f0;
+  width: 100%;
+  /* height: 400px; */
+  padding: 1rem;
+  margin: 0 0.1rem;
+}
+
+.heading {
+  color: #475569;
+  font-size: 1.2rem;
+}
+
+.left-nav-item {
+  list-style: none;
+  margin-bottom: 0.4rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.content-container {
+  background-color: #f1f5f9;
+  width: 100%;
+  margin: 0 0.3rem;
+  padding: 1rem;
+}
+
+.content-paragraph {
+  color: #64748b;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.ad-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad {
+  color: #64748b;
+  border: 1px solid #475569;
+  height: 100px;
+  width: 90%;
+  margin: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

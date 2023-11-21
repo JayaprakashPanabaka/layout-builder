@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.top-container {
+  background-color: #475569;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  padding: 1rem 0 1rem 4rem;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input-container {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.2rem;
+}
